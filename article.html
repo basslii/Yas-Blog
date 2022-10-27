@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasmin's Blog</title>
+
+    <!-- icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+   <!-- swiper slider cdn -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.css" integrity="sha512-kftIhGv/k/oRHmfDRDEb1MxlaWlW4tiz21rx0yNC2zUWM2n4nxRtX1z3Ijmu54he3Yf9sBX4skJaCe3LTJV1rQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom style.css file -->
+    <link rel="stylesheet" href="blog.css">
+
+    <!-- fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@1,500&family=Raleway:wght@300&family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+    
+</head>
+
+
+<body>
+<!-- Header -->
+<header id="header" class="shadow grad">
+    <nav class="container navbar">
+        <a href="/blog.html" class="nav-brand text-dark">
+            Yasmin's Blog
+        </a>
+
+        <!-- Toggle Button -->
+        <button class="toggle-btn">
+            <span><i class="fas fa-bars"></i></span>
+        </button>
+
+        <!-- collapse on toggle button click -->
+        <div class="collapse">
+            <ul class="navbar-nav">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Blog</a>
+                <a href="#" class="nav-link">Pages</a>
+                <a href="#" class="nav-link">Categories</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </ul>
+        </div>
+
+        <!-- collapse on toggle button click -->
+        <div class="collapse">
+            <ul class="navbar-nav">
+                <div class="search-box">
+                    <input type="text" class="search-txt" placeholder="Type to search">
+                    <a href="#" class="search-btn">
+                        <i class="fas fa-search "></i>
+                    </a> 
+                </div>
+
+                <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="nav-link"><i class="fab fa-spotify"></i></a>
+                <a href="#" class="nav-link"><i class="fab fa-snapchat"></i></a>
+                
+            </ul>
+        </div>
+    </nav>
+</header>
+<!-- .Header -->
+
+
+<!-- Main Section -->
+<main id="site-main">
+    
+    <!-- Post Content -->
+    <section class="container">
+        <article id="post">
+            <!-- Article Heading -->
+            <div class="headings text-center">
+                <div class="category">
+                    <a href="#" class="nav-link2 display-1 bg-light">Travel</a>
+                </div>
+
+                <div class="title">
+                    <h2 class="text-title text-dark display 1">"A dreamy view just like the one we all have when we sleep"</h2>
+                </div>
+
+                <div class="meta">
+                    <a href="#" class="link display-2 text-secondary px-1">
+                        <i class="fas fa-user-alt text-secondary-color px-1"></i>YASMIN ZAINUDIN
+                    </a>
+                    <a href="#" class="link display-2 text-secondary px-1">
+                        <i class="fas fa-search-location text-secondary-color px-1"></i>LANGKAWI
+                    </a>
+                    <a href="#" class="link display-2 text-secondary px-1">
+                        <i class="far fa-clock text-secondary-color px-1"></i>FRI, DEC 2021
+                    </a>
+                    <a href="#" class="link display-2 text-secondary px-1">
+                        <i class="far fa-comment-dots text-secondary-color px-1"></i>7
+                    </a>
+                </div>
+            </div>
+
+            <!-- thumbnail -->
+            <div class="thumbnail mt-3">
+                <img src="./assets/silhouettelangkawi.jpeg" class="thumbnail" alt="">
+            </div>
+
+            <!-- content -->
+            <div class="content text-dark display-2 secondary-title mt-3 text-left">
+                <p>Travelling to places gives us a chance in experiencing new wonders. Beautiful views and scenarios that can only be experienced with our only eyes speak more than a thousand words. Souls that search for peace can be found in moments we see something so beautioful, so admiring.</p>
+                <p>A picture taken at this hour and location displays a silhouette of people enjoying their foods with their companionship. Truly a dreamy view for those who appreciate sunset.</p>
+                <p>Everything feels like it falls into its place  the longer you look at this pciture because at the end of the day, deep down in our hearts, we all know we truthfully belong somewhere in this beatufiul world.</p>
+            </div>
+        </article>
+
+        <!-- Post Footer -->
+        <div class="post-footer mb-3">
+            <div class="post-tags d-flex flex-wrap justify-content-center">
+            <a href="#" class="nav-link2 btn bg-light2">Travel</a>
+            <a href="#" class="nav-link2 btn bg-light2">Local</a>
+            <a href="#" class="nav-link2 btn bg-light2">Food</a>
+            <a href="#" class="nav-link2 btn bg-light2">Fashion</a>
+            <a href="#" class="nav-link2 btn bg-light2">Film</a>
+            <a href="#" class="nav-link2 btn bg-light2">Arts</a>
+            </div>
+    
+            <div class="post-author text-center">
+        <div class="author-avatar">
+            <img src="./assets/Yasatmalayagarden.jpeg" class="rounded" alt="">
+        </div>
+        
+        <div class="author-info py-2">
+            <h3 class="text-dark">Yasmin Zainudin</h3>
+            <p class="text-secondary tertiary-title display-2">
+                    The cheekiest, out and about tan-skinned girl who is known as #minteathefoodie. Naturally talented at taking good pictures, she utilizes her skill to take pictures of foods, sceneries and people.
+                    As she is an outgoing person, she spends her time mostly going out to experience new adventures in life. Everyday is thrilling for her. being a friend, bestfriend and lover at the same time, she is definitely a fun compnaionship with full of bright ideas and plans to keep her days well spent. Not a single day being wasted. 
+            </p>
+        
+            <div class="post-tags d-flex flex-wrap justify-content-center">
+                <a href="#" class="nav-twitter btn bg-light2"><i class="fab fa-twitter text-shadow display-2"></i></a>
+                <a href="#" class="nav-ig btn bg-light2"><i class="fab fa-instagram ig-color text-shadow display-2"></i></a>
+                <a href="#" class="nav-spotify btn bg-light2"><i class="fab fa-spotify spotify-color text-shadow display-2"></i></a>
+                <a href="#" class="nav-snapchat btn bg-light2"><i class="fab fa-snapchat snap-color text-shadow display-2"></i></a>
+                <a href="#" class="nav-camera btn bg-light2"><i class="fas fa-camera-retro text-shadow display-2"></i></a>
+            </div>
+        </div>
+            </div>
+
+            <!-- post related -->
+            <div class="post-related py-2">
+            <div class="row mb-3 justify-content-center">
+                <div class="prev text-left">
+                    <div class="py-2">
+                        <a href="#" class="display-2 text-dark">
+                            <i class="fas fa-chevron-left"></i>
+                            Previous Post
+                        </a>
+                    </div>
+                    <article class="article text-center">
+                        <div class="d-flex">
+                            <a href="#">
+                                <img src="./assets/phil'spizza.jpeg" class="object-fit" alt="">
+                            </a>
+                            <div class="card-body px-1">
+                                <div class="category">
+                                    <a href="#" class="nav-link2 display-1 bg-light">Film</a>
+                                </div>
+                                <a href="#" class="text-title display-2 text-dark">
+                                    "Pizza, pizza and pizza, what more?"
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="next text-right">
+                    <div class="py-2">
+                        <a href="#" class="display-2 text-dark">
+                            Next Post
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                    <article class="article text-center">
+                        <div class="d-flex">
+                            <div class="card-body px-1">
+                                <div class="category">
+                                    <a href="#" class="nav-link2 display-1 bg-light">Arts</a>
+                                </div>
+                                <a href="#" class="text-title display-2 text-dark">
+                                    "Contemplating on which art did i wanna bring home that night"
+                                </a>
+                            </div>
+                            <a href="#">
+                                <img src="./assets/She'stheart.jpeg" class="object-fit" alt="">
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            </div>
+
+            <!-- comments section -->
+            <div class="post-comments py-2">
+                <h3 class="text-center display-1 secondary-title py-2">3 comments</h3>
+            
+                <div class="comment-details">
+                <div class="comment-item py-2">
+                    <div class="d-flex">
+                        <div class="avatar px-2">
+                            <img src="./assets/Bazli.jpeg" class="rounded" alt="">
+                        </div>
+                        <div class="comment-content">
+                            <h5 class="display-2 m-0">Bazli Nabil</h5>
+                            <p class="title-secondary text-dark">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quidem maiores possimus corrupti error iure sint fuga, magni quas illo iste placeat consequatur assumenda odit laborum dignissimos sapiente eligendi quaerat.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- comment replies -->
+                    <div class="reply py-2">
+                        <div class="d-flex">
+                            <div class="avatar px-2">
+                                <img src="./assets/Anas.jpeg" class="rounded" alt="">
+                            </div>
+                            <div class="comment-content">
+                                <h5 class="display-2 m-0">Anas Syahmi</h5>
+                                <p class="title-secondary text-dark">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quidem maiores possimus corrupti error iure sint fuga, magni quas illo iste placeat consequatur assumenda odit laborum dignissimos sapiente eligendi quaerat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comment-item py-2">
+                    <div class="d-flex">
+                        <div class="avatar px-2">
+                            <img src="./assets/Yan.jpeg" class="rounded" alt="">
+                        </div>
+                        <div class="comment-content">
+                            <h5 class="display-2 m-0">Azhan Rizhan</h5>
+                            <p class="title-secondary text-dark">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quidem maiores possimus corrupti error iure sint fuga, magni quas illo iste placeat consequatur assumenda odit laborum dignissimos sapiente eligendi quaerat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <!-- comment form -->
+                <div class="comment-form">
+                    <h3 class="text-center display-1 secondary-title py-2">Leave a comment</h3>
+
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <input type="text" class="form-control" placeholder="Name">
+                        <input type="email" class="form-control" placeholder="Email">
+                        <input type="text" class="form-control" placeholder="Website">
+                    </div>
+
+                    <textarea class="form-control mt-3" placeholder="Message" rows="10"></textarea>
+                    <div class="text-center">
+                        <button class= "btn btn-primary display-2 text-light mt-2">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- .Post Footer -->
+
+    </section>
+    <!-- .Post Content -->
+
+
+    <!-- Slider Section -->
+    <section class="slider">
+        <div class="container">
+
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./assets/controversial.jpeg" class="Img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./assets/Kindalooklikecouple.jpeg" class="Img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./assets/bookatbeach.jpeg" class="Img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./assets/eye contact.jpeg" class="Img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./assets/copenhagenmeal.jpeg" class="Img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./assets/Yas.jpeg" class="Img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./assets/malayagarden.jpeg" class="Img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./assets/headachepost.jpeg" class="Img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./assets/lickychan.jpeg" class="Img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./assets/10,000eyarsofart.jpeg" class="Img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./assets/localisnewluxury.jpeg" class="Img-fluid" alt="">
+                        </a>
+                    </div>
+                    <!-- .Slides -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- .Slider Section -->
+
+</main>
+<!-- .Main Section -->
+
+
+<!-- Footer section -->
+<footer id="footer">
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-3">
+                <h2 class="footer-title secondary title display-2 text-left">About Us</h2>
+                <div class="secondary-title text-secondary text-left">
+                    <p class="mt-2 display-3">
+                        Inspiring next generation to continuously explore local cuisines and local beauty spots 
+                        to ensure the love of this country will forever remain strong. <br>
+                        <br>Yasmin's Blog will always be about enjoying new experiences with companions. 
+                    </p>
+
+                    <address class="display-3">
+                        <p class="mt-2">
+                            <i class="fas fa-map-marked-alt text-secondary-color"></i>
+                            Subang Jaya, Selangor
+                        </p> 
+                    </address>
+
+                    <div class="phone display-3">
+                        <p class="mt-2 ">
+                            <i class="fas fa-phone-alt text-secondary-color"></i>
+                            017-4970756
+                        </p> 
+                    </div>
+
+                    <div class="email display-3">
+                        <p class="mt-2">
+                        <i class="far fa-envelope text-secondary-color"></i>
+                        balipanas97@gmail.com
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-3">
+                <h2 class="footer-title secondary title display-2 text-left">Feature Post</h2>
+                <div class="feature-post">
+
+                    <div class="flex-item">
+                        <article class="article">
+                            <div class="d-flex">
+                                <a href="#">
+                                    <img src="./assets/localisnewluxury.jpeg" class="object-fit px-1" alt="">
+                                    <div class="px-1 display-2 text-left">
+                                        <a href="#" class="text-title text-dark">
+                                            "Supporting local business is really the new luxury"
+                                        </a>
+                                        <p class="secondary-title text-secondary display-3">
+                                            <span><i class="fas fa-search-location text-secondary-color"></i>MALAYA GARDEN</span>
+                                            <span><i class="far fa-clock text-secondary-color"></i>MON, jAN 2022</span>   
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="flex-item">
+                        <article class="article">
+                            <div class="d-flex">
+                                <a href="#">
+                                    <img src="./assets/artGallery.jpeg" class="object-fit px-1" alt="">
+                                    <div class="px-1 display-2 text-left">
+                                        <a href="#" class="text-title text-dark">
+                                            "Endless creativities and possibilities displayed on walls and canvas"
+                                        </a>
+                                        <p class="secondary-title text-secondary display-3">
+                                            <span><i class="fas fa-search-location text-secondary-color"></i>ARTFAIR</span>
+                                            <span><i class="far fa-clock text-secondary-color"></i>TUE, NOV 2021</span> 
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="flex-item">
+                        <article class="article">
+                            <div class="d-flex">
+                                <a href="#">
+                                    <img src="./assets/Yas.jpeg" class="object-fit px-1" alt="">
+                                    <div class="px-1 display-2 text-left">
+                                        <a href="#" class="text-title text-dark">
+                                            "Clear reflection of beauty"
+                                        </a>
+                                        <p class="secondary-title text-secondary display-3">
+                                            <span><i class="fas fa-search-location text-secondary-color"></i>PENANG</span>
+                                            <span><i class="far fa-clock text-secondary-color"></i>MON, DEC 2021</span>   
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+            <h2 class="footer-title secondary title display-2 text-left">Tags</h2>
+
+            <div class="tags">
+                <div class="d-flex flex-wrap">
+                    <a href="#" class="nav-link2 btn bg-light">Travel</a>
+                    <a href="#" class="nav-link2 btn bg-light">Local</a>
+                    <a href="#" class="nav-link2 btn bg-light">Food</a>
+                    <a href="#" class="nav-link2 btn bg-light">Fashion</a>
+                    <a href="#" class="nav-link2 btn bg-light">Film</a>
+                    <a href="#" class="nav-link2 btn bg-light">Arts</a>
+                </div>
+            </div>
+
+            <h2 class="footer-title secondary title display-2 mt-2 text-left">Socials</h2>
+            <div class="tags social">
+                <div class="d-flex flex-wrap">
+                    <a href="#" class="nav-link btn bg-light"><i class="fab fa-twitter twitter-color text-shadow display-2"></i></a>
+                    <a href="#" class="nav-link btn bg-light"><i class="fab fa-instagram ig-color text-shadow display-2"></i></a>
+                    <a href="#" class="nav-link btn bg-light"><i class="fab fa-spotify spotify-color text-shadow display-2"></i></a>
+                    <a href="#" class="nav-link btn bg-light"><i class="fab fa-snapchat snap-color text-shadow display-2"></i></a>
+                    <a href="#" class="nav-link btn bg-light"><i class="fas fa-camera-retro text-shadow display-2"></i></a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Copyrights -->
+        <div class="copyrights m-2 py-1">
+            <p class="text-center display-2 text-dark">
+                © 2022 <a href="#" class="text-light-blue">By Bazli</a> -Yasmin's Blog Theme.All rights reserved
+            </p>
+        </div>
+    </div>
+</footer>
+<!-- .Footer section -->
+
+
+<!-- masonry grid -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- swiper slider cdn file -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom blog.js file -->
+<script src="blog.js"></script>
+
+</body>
+</html>
